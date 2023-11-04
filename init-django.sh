@@ -31,8 +31,9 @@ urlpatterns = [
     path('path-they-want/', views.members, name=''),
 ]
 EOF
-
+    
     cd ..
+    ./manage.py runserver
 done
 
 echo "Demo project with starter apps has been created."
