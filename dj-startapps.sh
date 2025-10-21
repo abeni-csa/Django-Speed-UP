@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of folder names
-folder_array=("blog" "css" "main")
+folder_array=("blog" "web" "sometest")
 
 # Loop through each folder name and create Django app
 for folder_name in "${folder_array[@]}"
